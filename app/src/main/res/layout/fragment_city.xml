@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="10dp"
+    android:columnCount="3"
+    android:rowCount="3"
+    android:orientation="horizontal"
+    android:useDefaultMargins="true"
+    tools:context=".CityFragment">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image1"
+            android:layout_width="116dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:shapeAppearanceOverlay="@style/Corner"
+            android:src="@drawable/taipei"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image1"
+            android:layout_alignEnd="@id/image1"
+            android:layout_alignStart="@+id/image1"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="台北"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image2"
+            android:layout_width="116dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/taipei"
+            app:shapeAppearanceOverlay="@style/Corner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image2"
+            android:layout_alignEnd="@id/image2"
+            android:layout_alignStart="@+id/image2"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="台北"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image3"
+            android:layout_width="116dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            android:scaleType="centerCrop"
+            android:src="@drawable/taipei"
+            app:shapeAppearanceOverlay="@style/Corner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image3"
+            android:layout_alignEnd="@id/image3"
+            android:layout_alignStart="@+id/image3"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="台北"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image4"
+            android:layout_width="116dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:shapeAppearanceOverlay="@style/Corner"
+            android:src="@drawable/taipei"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image4"
+            android:layout_alignEnd="@id/image4"
+            android:layout_alignStart="@+id/image4"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="台北"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/image5"
+            android:layout_width="116dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center"
+            app:shapeAppearanceOverlay="@style/Corner"
+            android:src="@drawable/taipei"
+            android:scaleType="centerCrop" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/image5"
+            android:layout_alignEnd="@id/image5"
+            android:layout_alignStart="@+id/image5"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:text="台北"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_columnSpan="3"
+        android:text="查看全部目的地" />
+
+</GridLayout>
